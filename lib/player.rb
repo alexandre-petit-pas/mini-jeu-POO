@@ -7,6 +7,14 @@ class Player
   end
 
   def show_state
-    player1.name + "a" + player1.life_points + "points de vie"
+    return "#{name} a #{life_points} points de vie"
   end
+
+  def gets_damage(damage_number)
+    @life_points -= damage_number
+    if life_points <= 0
+      return "#{name} a été tué !"
+    end
+  end
+
 end
