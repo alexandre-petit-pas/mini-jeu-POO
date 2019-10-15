@@ -1,5 +1,10 @@
 # mini_jeu_poo
-Projet du 15/10/2019
+
+### PROJET EFFECTUÉ EN BINOME ###
+
+## MOUSSAILLON 1 : ALEXANDRE PETIT-PAS (PSEUDO SLACK @Alexandre Petit-Pas) / alexandre.petitpas25@gmail.com ##
+
+## MOUSSAILLON 2 : JULIETTE PETIT-PAS (PSEUDO SLACK @julietteptps) / petitpasjuliette@gmail.com ##
 
 Nous avons commencé par creer une classe "Player" et nous leurs avons donné des attributs (points de vies, noms)
 
