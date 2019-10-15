@@ -1,3 +1,5 @@
+require 'pry'
+
 class Player
   attr_accessor :name, :life_points
 
@@ -83,4 +85,22 @@ class HumanPlayer < Player
       @life_points = @life_points + 80
     end
   end
+
+  def attacks(target)
+    puts "#{@name} attaque #{target.name}"
+    attaque = compute_damage
+    puts "#{@name} lui inflige #{attaque} points de dégât"
+    target.gets_damage(attaque)
+  end
+
+  def compute_damage
+    return rand(1..6)
+  end
+
 end
+
+player1 = Player.new("José")
+player2 = Player.new("Josiane")
+
+
+binding.pry
